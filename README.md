@@ -4,8 +4,6 @@ FinDoc AI is a cloud-based AI system designed to extract, classify, structure, a
 
 The system processes invoice and receipt images sourced from Kaggle datasets and user uploads, extracts key financial information, stores the results in both vector and relational databases, and allows users to ask natural language questions through a chatbot interface.
 
----
-
 ## Project Overview
 
 The goal of this project is to transform unstructured financial documents, such as invoice and receipt images, into structured and queryable data.
@@ -22,7 +20,6 @@ The pipeline supports two main types of questions:
    Example:  
    *“What is the total amount spent on fuel?”*
 
----
 
 ## System Architecture
 
@@ -44,7 +41,6 @@ Responsibilities:
 - Store processed outputs in AWS S3.
 - Store semantic representations in an OpenSearch vector database.
 
----
 
 ### Agent 2 — Classification and Structuring Agent
 
@@ -61,7 +57,6 @@ Responsibilities:
 - Create consistent schemas for invoices and receipts.
 - Store structured records in a PostgreSQL relational database using AWS RDS.
 
----
 
 ### Agent 3 — Conversational Query Agent
 
@@ -76,7 +71,6 @@ Responsibilities:
 - Return natural language answers.
 - Generate charts when numerical results are returned.
 
----
 
 ## Web Application
 
@@ -90,7 +84,6 @@ Main features:
 - Real-time document ingestion through the UI.
 - Support for both Kaggle dataset documents and new user-uploaded invoices or receipts.
 
----
 
 ## Technologies Used
 
@@ -131,7 +124,6 @@ Main features:
 - **Kaggle invoice and receipt image dataset**
 - **User-uploaded financial documents**
 
----
 
 ## Key Features
 
@@ -145,10 +137,10 @@ Main features:
 - Chart generation for numerical query results.
 - Web-based document upload and chatbot interface.
 
----
 ## UI
 
 <img width="1920" height="1080" alt="Copy of Το κείμενο της παραγράφου σας (2)" src="https://github.com/user-attachments/assets/4d7ff929-d25f-43ab-a60e-543310be98d7" />
-<img width="1920" height="1080" alt="Copy of Το κείμενο της παραγράφου σας (1)" src="https://github.com/user-attachments/assets/eb233161-6765-493f-af55-94e73dd38419" />
-<img width="1920" height="1080" alt="Copy of Το κείμενο της παραγράφου σας" src="https://github.com/user-attachments/assets/ac9fb8a6-d957-4fcc-b129-feb6516ef5a6" />
+<img width="1920" height="1080" alt="Copy of Το κείμενο της παραγράφου σας (5)" src="https://github.com/user-attachments/assets/aa9ef275-5ff7-4101-9918-286598c659ed" />
+<img width="1920" height="1080" alt="Copy of Το κείμενο της παραγράφου σας (6)" src="https://github.com/user-attachments/assets/8d4d86b1-9863-46e8-9797-8cbbc78adb5c" />
+
 
