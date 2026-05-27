@@ -39,7 +39,7 @@ Responsibilities:
 - Store semantic representations in an OpenSearch vector database.
 
 
-### Agent 2 — Classification and Structuring Agent
+### Agent 2 - Classification and Structuring Agent
 
 Agent 2 reads the extracted JSON outputs, classifies documents, normalizes inconsistent field names, and stores clean structured records.
 
@@ -55,7 +55,7 @@ Responsibilities:
 - Store structured records in a PostgreSQL relational database using AWS RDS.
 
 
-### Agent 3 — Conversational Query Agent
+### Agent 3 - Conversational Query Agent
 
 Agent 3 serves as the user-facing conversational interface.
 
