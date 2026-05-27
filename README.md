@@ -89,35 +89,35 @@ Main features:
 
 ### Cloud Infrastructure
 
-- **AWS S3** — storage for raw documents and processed JSON outputs.
-- **AWS Bedrock** — access to foundation models and agent workflows.
-- **AWS Lambda** — serverless execution for pipeline components.
-- **AWS OpenSearch** — vector database for semantic search.
-- **AWS RDS** — relational database for structured financial records.
+- **AWS S3** - storage for raw documents and processed JSON outputs.
+- **AWS Bedrock** - access to foundation models and agent workflows.
+- **AWS Lambda** - serverless execution for pipeline components.
+- **AWS OpenSearch** - vector database for semantic search.
+- **AWS RDS** - relational database for structured financial records.
 
 ### AI / Machine Learning
 
-- **Claude Haiku 4.5** — Visual Language Model for document extraction.
-- **Vector embeddings** — semantic representation of extracted document content.
-- **RAG-style retrieval** — semantic question answering over document data.
-- **Multi-agent workflow** — separate agents for extraction, structuring, and querying.
+- **Claude Haiku 4.5** - Visual Language Model for document extraction.
+- **Vector embeddings** - semantic representation of extracted document content.
+- **RAG-style retrieval** - semantic question answering over document data.
+- **Multi-agent workflow** - separate agents for extraction, structuring, and querying.
 
 ### Databases
 
-- **OpenSearch Vector Database** — used for semantic search and document retrieval.
-- **PostgreSQL** — used for structured financial data and SQL-based quantitative queries.
+- **OpenSearch Vector Database** - used for semantic search and document retrieval.
+- **PostgreSQL** - used for structured financial data and SQL-based quantitative queries.
 
 ### Backend
 
-- **Python** — data processing, agent logic, and pipeline orchestration.
-- **FastAPI** — backend API for document upload and chatbot communication.
-- **SQL** — querying structured invoice and receipt data.
+- **Python** - data processing, agent logic, and pipeline orchestration.
+- **FastAPI** - backend API for document upload and chatbot communication.
+- **SQL** - querying structured invoice and receipt data.
 
 ### Frontend
 
-- **React** — user interface development.
-- **JavaScript / TypeScript** — frontend logic.
-- **HTML / CSS** — UI structure and styling.
+- **React** - user interface development.
+- **JavaScript / TypeScript** - frontend logic.
+- **HTML / CSS** - UI structure and styling.
 
 ### Data
 
