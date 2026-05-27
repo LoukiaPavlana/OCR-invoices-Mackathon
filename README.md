@@ -25,9 +25,6 @@ The pipeline supports two main types of questions:
 
 The project was implemented as a three-agent pipeline:
 
-<img width="1920" height="1080" alt="PDF Extraction" src="https://github.com/user-attachments/assets/db3d88e5-1aaf-4bea-b281-d96c11b9f0d9" />
-
-
 ### Agent 1 - Document Extraction Agent
 
 Agent 1 ingests raw invoice and receipt images and applies VLM-based extraction to convert visual document content into structured JSON outputs.
@@ -70,6 +67,9 @@ Responsibilities:
 - Use SQL queries for quantitative questions.
 - Return natural language answers.
 - Generate charts when numerical results are returned.
+
+
+<img width="1920" height="1080" alt="PDF Extraction" src="https://github.com/user-attachments/assets/db3d88e5-1aaf-4bea-b281-d96c11b9f0d9" />
 
 
 ## Web Application
