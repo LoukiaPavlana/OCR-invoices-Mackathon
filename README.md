@@ -1,6 +1,6 @@
 # FinDoc AI - Multi-Agent Financial Document Understanding System
 
-FinDoc AI is a cloud-based AI system designed to extract, classify, structure, and query financial data from invoice and receipt images. The project was developed during the UniAi Makeathon, which took first place in the group semi finals, and focuses on combining Visual Language Models, vector search, relational databases and conversational AI to support both semantic and quantitative financial document analysis.
+FinDoc AI is a cloud-based AI system designed to extract, classify, structure, and query financial data from invoice and receipt images. The project was developed during the UniAi Makeathon, where we achieved first place in the group semi finals. It focuses on combining Visual Language Models, vector search, relational databases and conversational AI to support both semantic and quantitative financial document analysis.
 
 The system processes invoice and receipt images sourced from Kaggle datasets and user uploads, extracts key financial information, stores the results in both vector and relational databases, and allows users to ask natural language questions through a chatbot interface.
 
